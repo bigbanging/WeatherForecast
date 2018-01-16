@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/textView_realtime_update_time"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="更新时间 15:00:00"
+        android:textSize="22sp"
+        android:background="#FF8E8E8E" />
+    <com.natasa.progressviews.CircleSegmentBar
+        android:id="@+id/circleSegmentBar_realtime_weather"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp" />
+    <TextView
+        android:id="@+id/textView_realtime_show_week"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="星期三"
+        android:textSize="22sp"
+        android:background="#FF8E8E8E"/>
+    <TextView
+        android:id="@+id/textView_realtime_weather_quality"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="多云|空气质量：优"
+        android:textSize="22sp"
+        android:background="#FF8E8E8E"/>
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/city_bj"
+        android:icon="@drawable/ic_launcher"
+        android:title="北京"/>
+    <item android:id="@+id/city_sh"
+        android:icon="@drawable/ic_launcher"
+        android:title="上海"/>
+    <item android:id="@+id/city_gz"
+        android:icon="@drawable/ic_launcher"
+        android:title="广州"/>
+    <item android:id="@+id/city_sz"
+        android:icon="@drawable/ic_launcher"
+        android:title="深圳"/>
+    <item android:id="@+id/city_heb"
+        android:icon="@drawable/ic_launcher"
+        android:title="哈尔滨"/>
+    <item android:id="@+id/city_cd"
+        android:icon="@drawable/ic_launcher"
+        android:title="成都"/>
+    <item android:id="@+id/city_xa"
+        android:icon="@drawable/ic_launcher"
+        android:title="西安"/>
+    <item android:id="@+id/city_tl"
+        android:icon="@drawable/ic_launcher"
+        android:title="铁岭"/>
+    <item android:id="@+id/city_zz"
+        android:icon="@drawable/ic_launcher"
+        android:title="郑州"/>
+    <item android:id="@+id/city_hn"
+        android:icon="@drawable/ic_launcher"
+        android:title="海南"/>
+    <item android:id="@+id/city_nn"
+        android:icon="@drawable/ic_launcher"
+        android:title="南宁"/>
+</menu>
